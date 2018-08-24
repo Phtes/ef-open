@@ -103,6 +103,12 @@ class EFConfig(object):
       "config": {},
       "dist-hash": {
           "allowed_types": ["dist_static"]
+      },
+      "git-hash": {
+          "allowed_types": ["aws_lambda"]
+      },
+      "lambda-version": {
+          "allowed_types": ["aws_lambda"]
       }
   }
   # Some envs' version entries can be set via these special values, meaning 'use the value found there'
